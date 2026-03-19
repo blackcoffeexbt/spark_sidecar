@@ -33,7 +33,17 @@ SPARK_PAY_WAIT_MS=20000 \
 node server.mjs
 ```
 
-Optional auth:
+**Spark Multiplicity Setting**
+
+Optional multiplicity tuning for [Spark leaf optimization](https://docs.spark.money/api-reference/wallet/initialize#multiplicity-levels)
+
+Default multiplicity is 3
+
+```
+SPARK_MULTIPLICITY=3
+```
+
+**Optional API Key**
 
 ```
 SPARK_SIDECAR_API_KEY="mykey"
